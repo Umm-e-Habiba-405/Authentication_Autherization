@@ -112,7 +112,7 @@ const CoursesDetail = ({ params }: CoursesDetailPageProps) => {
         </div>
       </div>
       <div className="p-6 bg-gray-100">
-        <button onClick={() => router.push("/student")} className="bg-purple-600 text-white px-6 py-2 rounded-lg">
+        <button onClick={() => router.push("/course")} className="bg-purple-600 text-white px-6 py-2 rounded-lg">
           Back to Courses
         </button>
       </div>
